@@ -5,7 +5,7 @@ ca_cert_dir="./ca-cert"
 server_cert_dir="./server-cert"
 client_cert_dir="./client-cert"
 # common names
-ca_common_name="TEST CA"
+ca_common_name="SELF SIGNED CA"
 server_common_name="localhost"
 client_common_name="user"
 
