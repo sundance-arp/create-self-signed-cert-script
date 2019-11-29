@@ -11,9 +11,9 @@ client_common_name="user"
 
 
 # create directories
-mkdir ${ca_cert_dir}
-mkdir ${server_cert_dir}
-mkdir ${client_cert_dir}
+mkdir -p ${ca_cert_dir}
+mkdir -p ${server_cert_dir}
+mkdir -p ${client_cert_dir}
 
 
 # create ca certificate
